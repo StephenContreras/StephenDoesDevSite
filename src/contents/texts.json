@@ -1,0 +1,32 @@
+[
+    
+    {
+        "title": "About Me",
+        "text": [
+                    "I’m a software engineer located in Dallas, Texas. Right now I mainly focus on process automation but enjoy learning new things in tech whether it be about the latest vulnerabilities found by the information security community, new ways of web development, or even just keeping up with the news from consumer electronics and tech companies.",
+                    "When I’m away from the console I enjoy going on runs, exploring the community, listening to podcasts on economics and political science, and attempting to keep my houseplants alive. ","I am currently enrolled at The University of Texas at Austin for a masters in computer science while also working full time at USAA. I’m graduating from the program in May of 2022. This program has a focus in advanced systems design, machine learning and artificial intelligence and is intended for students that are actively working.",
+                    "I’m currently a master’s student at The University of Texas at Austin and working at USAA in their Dallas office. You can find more information about this in the other tabs! "
+                ],
+        "txtcolor": "#FFFFFF",
+        "bgcolor": "#507255"
+    },
+    {
+        "title": "Education",
+        "text": [
+                    "I am currently enrolled at The University of Texas at Austin for a masters in computer science while also working full time at USAA. I’m graduating from the program in May of 2022. This program has a focus in advanced systems design, machine learning and artificial intelligence and is intended for students that are actively working.",
+                    "I have a Bachelor of Science degree in computer engineering from Texas A&M University. I graduated cum laude in 2018 with a focus in computer systems and cyber security.  By going through the computer engineering program I was able to learn deeper insights into the impact of computer hardware on the implementation of software and computer systems and reinforced the ability to context switch between lower level languages and ones with greater levels of abstraction. I was able to go from hand compiling C code to implementing an object oriented language via Haskell to data analysis in R to parallelizing software to run on A&M supercomputers. "
+                ],
+        "txtcolor": "#FFFFFF",
+        "bgcolor": "#bf5700"
+    },
+    {
+        "title": "Career",
+        "text": [
+                    "I have been working with USAA since June of 2018 as a software engineer in IT operations working on automating the system administration processes used by the enterprise. Under this role I have mainly worked on Microsoft infrastructure creating .NET products in C# with Microsoft SQL Server, however I have also worked on creating react front ends and ServiceNow integration of APIs I have written.",
+                    "In addition to the technical work I have done I also have also worked on the team that coordinates the training program for IT operations. This involves coordinating architects, executives and technical leads for training sessions as well as serving as a general point of contact for the department. ",
+                    "Prior to USAA I Interned with AIG on their Intranet Services team focused on creating an automated system of microsite development. This was implemented using Angular2 and SharePoint. In addition to this I created technical documentation and training resources for the business. I interned with the Texas Higher Education Coordinating Board as well doing a similar role."
+                ],
+        "txtcolor": "#FFFFFF",
+        "bgcolor": "#185cac"
+    }
+]
