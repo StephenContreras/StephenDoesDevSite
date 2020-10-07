@@ -6,7 +6,7 @@
 }
 
 .trans{
-    transition: 1s;
+    transition: background-color 1s
 }
 
 .trans>path {

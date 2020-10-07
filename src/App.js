@@ -5,6 +5,8 @@ import About from './components/About'
 import Jobs from './components/Jobs'
 import Schools from './components/Schools'
 import './App.css';
+import './components/mysvg.css'
+
 import MySvg from './components/mysvg'
 
 
@@ -16,6 +18,8 @@ import MySvg from './components/mysvg'
 //   // }
 //   this.idx = window.scrollY/500
 // });
+
+const classes = ['bg1', 'bg2', 'bg3', 'bg4']
 
 var lnd = null;
 var abt = null;
@@ -61,6 +65,9 @@ class App extends React.Component {
 
 
   render(){
+      document.body.classList.add(classes[this.state.idx % classes.length]);
+      document.body.classList.remove(...classes.filter((n)=>n !== classes[this.state.idx % classes.length]));
+      document.body.classList.add('trans');
       return (
       <div id='mainApp' className="App green-yellow">
         <MySvg {...this.state} ></MySvg>
