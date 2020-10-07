@@ -4,23 +4,10 @@ import './mysvg.css'
 
 const classes = ['bg1', 'bg2', 'bg3', 'bg4']
 var x = null;
-const height = document.documentElement.clientHeight;
 
-
-
-// window.addEventListener('scroll', e => {
-//   if(x != null && !x.classList.contains(classes[Math.round(window.scrollY / height) % classes.length])){
-//     console.log(Math.floor(window.scrollY / height) % classes.length);
-//     x.classList.add(classes[Math.round(window.scrollY / height) % classes.length]);
-//     x.classList.remove(...classes.filter((n)=>n != classes[Math.round(window.scrollY / height) % classes.length]));
-//   }
-// });
 
 
 class MySvg extends React.Component {
-  constructor(props) {
-    super(props)
-}
   componentDidMount() {
     x = document.getElementById("bgdsvg");
   }
@@ -28,7 +15,7 @@ class MySvg extends React.Component {
   render(){
     if(x !== null){
       x.classList.add(classes[this.props.idx % classes.length]);
-    x.classList.remove(...classes.filter((n)=>n != classes[this.props.idx % classes.length]));
+    x.classList.remove(...classes.filter((n)=>n !== classes[this.props.idx % classes.length]));
     }
       return (
         <svg id="bgdsvg" width="1552" height="776" viewBox="0 0 1552 776" fill="none" xmlns="http://www.w3.org/2000/svg">

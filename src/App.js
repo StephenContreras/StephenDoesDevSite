@@ -1,19 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
-import Container from 'react-bootstrap/Container'
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import Landing from './components/Landing'
 import About from './components/About'
 import Jobs from './components/Jobs'
 import Schools from './components/Schools'
-import More from './components/More'
 import './App.css';
 import MySvg from './components/mysvg'
 
-const classes = ['green-yellow', 'green-blue', 'blue-purple', 'purple-red']
-var x = null;
-const height = document.documentElement.clientHeight;
 
 // window.addEventListener('scroll', e => {
 //   // if(x != null && !x.classList.contains(classes[Math.round(window.scrollY / height) % classes.length])){
@@ -35,7 +28,7 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      idx: 3
+      idx: 0
     }
     this.handleScroll = this.handleScroll.bind(this)
   }
@@ -47,7 +40,7 @@ class App extends React.Component {
       Math.abs(jbs.getBoundingClientRect().top),
       Math.abs(sch.getBoundingClientRect().top)]
       let newIdx = vals.indexOf(Math.min.apply(Math, vals))
-    if(newIdx != this.state.idx){
+    if(newIdx !== this.state.idx){
       this.setState({
         idx: newIdx
       })

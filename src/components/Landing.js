@@ -20,7 +20,7 @@ class Landing extends React.Component {
             </div>
             </Col>
             <Col xs={{span: 12, order: 1}} md={{span: 5, order: 2}}>
-              <img id='profilepic' src={me} alt="photo of stephen"></img>
+              <img id='profilepic' src={me} alt="Stephen Contreras"></img>
             </Col>
           </Row>
           <Row >
@@ -31,14 +31,6 @@ class Landing extends React.Component {
             </div>
             </Col>
           </Row>
-          {/* <Row>
-            <Col md={12} lg={{span: 10, offset: 1}} className="ld-cont">
-            <div>
-              <p>Find me on the web:</p>
-              <p><a href="https://github.com/stephencontreras" target="_blank">GitHub</a> <a href="https://linkedin.com/stephencontreras" target="_blank">LinkedIn</a> <a href="https://twitter.com/stephendoesdev" target="_blank">Twitter</a> <a href="https://dev.to/stephencontreras" target="_blank">Dev.to</a> </p>
-            </div>
-            </Col>
-          </Row> */}
         </Container>
       </div>
     );
