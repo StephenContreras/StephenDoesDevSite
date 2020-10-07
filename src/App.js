@@ -52,6 +52,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
+    document.body.classList.add('bg1');
     window.addEventListener('scroll', this.handleScroll, true);
     lnd = document.getElementById("lnd");
     abt = document.getElementById("abt");
