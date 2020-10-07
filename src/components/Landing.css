@@ -1,0 +1,34 @@
+.name-div p{
+    margin: 0;
+}
+ .name-div h2{
+     text-align: center;
+ }
+
+.name-div{
+    display: inline-block;
+    background-color: rgba(20,20,20,0.7);
+    padding:  1rem;
+    margin: 2rem 0;
+    color: #FFF;
+    width: 100%;
+}
+  
+#profilepic{
+    transition: 1s;
+    width: 100%;
+    max-width: 15rem;
+    border-radius: 15rem;
+    display: block;
+    margin: 1rem auto;
+    /* box-shadow: inset rgba(20,20,20,0.7) 0 0 1rem 1rem; */
+}
+
+
+
+@media (max-width: 767px)  {
+    #profilepic{
+      visibility: hidden;
+      height: 0;
+    }
+  }
