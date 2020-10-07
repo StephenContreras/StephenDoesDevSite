@@ -28,7 +28,7 @@ class App extends React.Component {
   constructor() {
     super()
     this.state = {
-      idx: 0
+      idx: -1
     }
     this.handleScroll = this.handleScroll.bind(this)
   }
@@ -53,7 +53,6 @@ class App extends React.Component {
     abt = document.getElementById("abt");
     jbs = document.getElementById("jbs");
     sch = document.getElementById("sch");
-    this.handleScroll();
   }
 
   componentWillUnmount() {

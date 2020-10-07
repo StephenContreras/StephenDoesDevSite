@@ -5,42 +5,42 @@
     min-width: 100%;
 }
 
-.bg1 {
+.trans{
     transition: 1s;
+}
+
+.trans>path {
+    transition: 1s;
+}
+
+.bg1 {
     background-color: #79ecf2;
 }
 
 .bg1>path {
-    transition: 1s;
     fill: #66c7cc;
 }
 
 .bg2{
-    transition: 1s;
     background-color: #79f279;
 } 
 
 .bg2>path {
-    transition: 1s;
     fill: #66cc66;
 }
 
 .bg3{
-    transition: 1s;
     background-color: #f2f279;
 }
 
 .bg3>path{
-    transition: 1s;
     fill: #cccc66;
 }
 
 .bg4{
-    transition: 1s;
     background-color: #f2ac79;
 }
 
 .bg4>path{
-    transition: 1s;
     fill: #cc9166;
 }
