@@ -9,29 +9,45 @@ import './Jobs.css';
 
 function Jobs() {
   return (
-    <div className="vcenter">
+    <div className="vcenter sectpad">
     <Container fluid="lg" >
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
           <h1>Career</h1>
         </Col>
       </Row>
+      <br></br>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
-          <h3>USAA</h3>
-          <p>Where I work</p>
+          <h3 class="no-marg">USAA</h3>
+          <p class="no-marg">Software Engineer</p>
+          <p >June '18 - present</p>
+          {/* <ul>
+            <li>Designed and Implemented system level automation for software drift reporting and management</li>
+            <li>Optimized legacy code for better performance with uneven server capacities</li>
+            <li>Refactored products for continuous integration and deployment in an active active environment</li>
+            <li>Coordinated department training and for new hires in collaboration with multiple teams</li>
+            <li>Organized department meetings for input and represented team in executive feedback meetings</li>
+          </ul> */}
+          <p>where I work</p>
         </Col>
       </Row>
+      <br></br>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
-          <h3>AIG</h3>
-          <p>Where I last interned</p>
+        <h3 class="no-marg">AIG</h3>
+        <p class="no-marg">Software Engineer</p>
+        <p >June '17 - August '17</p>
+        <p>Where I work</p>
         </Col>
       </Row>
+      <br></br>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
-          <h3>THECB</h3>
-          <p>Where I first interned</p>
+        <h3 class="no-marg">The Texas Higher Education Coordinating Board</h3>
+        <p class="no-marg">Software Engineer</p>
+        <p >June '15 - August '15</p>
+        <p>Where I work</p>
         </Col>
       </Row>
     </Container>

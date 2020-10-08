@@ -18,14 +18,16 @@ function Schools() {
       </Row>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
-          <h3>UT Austin</h3>
-          <p>It's where I go</p>
+        <h3 class="no-marg">The University of Texas at Austin</h3>
+          <p class="no-marg">Master of Science in Computer Science</p>
+          <p >expected December 2021</p>
         </Col>
       </Row>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
-          <h3>Texas A&amp;M</h3>
-          <p>It's where I went</p>
+          <h3 class="no-marg">Texas A&amp;M University</h3>
+          <p class="no-marg">Bachelor of Science in Computer Engineering</p>
+          <p >cum laude</p>
         </Col>
       </Row>
     </Container>

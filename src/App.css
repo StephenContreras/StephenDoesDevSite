@@ -7,7 +7,8 @@
 h1, 
 h2,
 h3,
-h4 {
+h4, 
+h5 {
   font-family: 'IBM Plex Sans', sans-serif;
 }
 
@@ -30,7 +31,7 @@ a{
   color: #FFF;
 }
 
-.cont > h1{
+.cont > h1, .cont > h5{
   text-align: center;
 }
 
@@ -40,6 +41,9 @@ a{
   min-height: 100vh;
 }
 
+.sectpad{
+  margin: 15rem 0;
+}
 
 @media (min-width: 768px)  {
   .desk-padding{

@@ -26,8 +26,7 @@ class Landing extends React.Component {
           <Row >
             <Col md={12} lg={{span: 10, offset: 1}} className="cont">
             <div>
-              <p>I'm a software engineer and graduate student currently located in Dallas, Texas.</p>
-              <p>I specialize in creating automation for processes and systems in operations. Whether it be an app or API, CLI or CICD, I work to make things faster and easier.</p>
+              <p>I’m a software engineer that specializes in designing and creating process automation and a graduate student is diving into just about everything else. From creating efficient and auditable systems to implementing deep networks and creating software parallel systems I strive to continuously learn and write good software. </p>
             </div>
             </Col>
           </Row>

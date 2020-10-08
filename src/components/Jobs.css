@@ -6,3 +6,10 @@
     color: white;
 }
 
+.no-marg {
+    margin: 0;
+}
+
+ul {
+    padding: 1rem;
+}
