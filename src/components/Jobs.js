@@ -29,7 +29,7 @@ function Jobs() {
             <li>Coordinated department training and for new hires in collaboration with multiple teams</li>
             <li>Organized department meetings for input and represented team in executive feedback meetings</li>
           </ul> */}
-          <p>where I work</p>
+          {/* <p>where I work</p> */}
         </Col>
       </Row>
       <br></br>
@@ -38,7 +38,7 @@ function Jobs() {
         <h3 class="no-marg">AIG</h3>
         <p class="no-marg">Software Engineer</p>
         <p >June '17 - August '17</p>
-        <p>Where I work</p>
+        {/* <p>Where I work</p> */}
         </Col>
       </Row>
       <br></br>
@@ -47,7 +47,7 @@ function Jobs() {
         <h3 class="no-marg">The Texas Higher Education Coordinating Board</h3>
         <p class="no-marg">Software Engineer</p>
         <p >June '15 - August '15</p>
-        <p>Where I work</p>
+        {/* <p>Where I work</p> */}
         </Col>
       </Row>
     </Container>
