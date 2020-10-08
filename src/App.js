@@ -6,9 +6,12 @@ import Jobs from './components/Jobs'
 import Schools from './components/Schools'
 import './App.css';
 import './components/mysvg.css'
+import ReactGA from 'react-ga';
 
 import MySvg from './components/mysvg'
 
+const trackingId = "UA-180094663-1";
+ReactGA.initialize(trackingId);
 
 // window.addEventListener('scroll', e => {
 //   // if(x != null && !x.classList.contains(classes[Math.round(window.scrollY / height) % classes.length])){
