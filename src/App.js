@@ -8,8 +8,6 @@ import './App.css';
 import './components/mysvg.css'
 import ReactGA from 'react-ga';
 
-import MySvg from './components/mysvg'
-
 const trackingId = "UA-180094663-1";
 ReactGA.initialize(trackingId);
 
@@ -74,7 +72,6 @@ class App extends React.Component {
       document.body.classList.add('trans');
       return (
       <div id='mainApp' className="App green-yellow">
-        {/* <MySvg {...this.state} ></MySvg> */}
         <div id="lnd">
           <Landing id="lnd" ></Landing>
         </div>
