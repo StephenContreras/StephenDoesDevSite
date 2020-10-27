@@ -6,7 +6,6 @@ class Back extends React.Component {
   render(){
       return (
       <div id='dots' className="bgsvg">
-       test
       </div>
     );
     }
