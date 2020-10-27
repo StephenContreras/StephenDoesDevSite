@@ -74,7 +74,7 @@ class App extends React.Component {
       document.body.classList.add('trans');
       return (
       <div id='mainApp' className="App green-yellow">
-        <MySvg {...this.state} ></MySvg>
+        {/* <MySvg {...this.state} ></MySvg> */}
         <div id="lnd">
           <Landing id="lnd" ></Landing>
         </div>
