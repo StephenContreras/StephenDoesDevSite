@@ -1,0 +1,6 @@
+.bgsvg{
+    background-image: url(./img/lots_dots.svg);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+}
