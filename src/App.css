@@ -30,6 +30,7 @@ a{
   background-color: rgba(20,20,20,0.7);
   padding: 1rem ;
   color: #FFF;
+  border-radius: 1rem;
 }
 
 .cont > h1, .cont > h5{

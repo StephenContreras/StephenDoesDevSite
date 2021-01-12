@@ -19,16 +19,17 @@ function Jobs() {
       <br></br>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
+          <h3 class="no-marg">Amazon</h3>
+          <p class="no-marg">Software Development Engineer</p>
+          <p >January '21 - Present</p>
+        </Col>
+      </Row>
+      <br></br>
+      <Row>
+        <Col md={12} lg={{span: 10, offset: 1}} className="cont">
           <h3 class="no-marg">USAA</h3>
           <p class="no-marg">Software Engineer</p>
-          <p >June '18 - present</p>
-          {/* <ul>
-            <li>Designed and Implemented system level automation for software drift reporting and management</li>
-            <li>Optimized legacy code for better performance with uneven server capacities</li>
-            <li>Refactored products for continuous integration and deployment in an active active environment</li>
-            <li>Coordinated department training and for new hires in collaboration with multiple teams</li>
-            <li>Organized department meetings for input and represented team in executive feedback meetings</li>
-          </ul> */}
+          <p >June '18 - January '21</p>
         </Col>
       </Row>
       <br></br>

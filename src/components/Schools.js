@@ -16,6 +16,7 @@ function Schools() {
           <h1>Education</h1>
         </Col>
       </Row>
+      <br></br>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
         <h3 class="no-marg">The University of Texas at Austin</h3>
@@ -23,6 +24,7 @@ function Schools() {
           <p >expected December 2021</p>
         </Col>
       </Row>
+      <br></br>
       <Row>
         <Col md={12} lg={{span: 10, offset: 1}} className="cont">
           <h3 class="no-marg">Texas A&amp;M University</h3>

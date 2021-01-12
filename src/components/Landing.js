@@ -14,7 +14,7 @@ class Landing extends React.Component {
         <Container fluid="lg"  >
           <Row>
             <Col xs={{span: 12, order: 2}} md={{span: 5, offset: 1, order: 1}}>
-            <div className="name-div" >
+            <div className="name-div cont" >
               <p>Hi I'm</p>
               <h2>Stephen Contreras</h2>
             </div>
